@@ -1,0 +1,692 @@
+0000.004 (0) Opened log file at time: Tue, 15 Feb 2022 01:04:39 +0000 on https://friends-of-dodo.art
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 8.0.11 (apache2handler, Linux hn142.greenhost.nl 5.10.67 #1 SMP Wed Sep 22 06:02:52 UTC 2021 x86_64) MySQL: 10.3.28-MariaDB-1:10.3.28+maria~stretch-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.6M | 6M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 253742 MB
+0000.017 (0) Deleting old temporary file: backup_2022-02-14-0213_Friends_of_Dodo_f1face86f447-themes.zip.list.tmp
+0000.040 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.041 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.049 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1644804799, seconds_ago=82280)
+0000.051 (0) Set semaphore last lock (fd) time to 2022-02-15 01:04:39
+0000.051 (0) Semaphore lock (fd) complete
+0000.054 (0) Backup run: resumption=0, nonce=e93be1b75b6f, file_nonce=e93be1b75b6f begun at=1644887079 (0s ago), job type=backup
+0000.055 (0) Scheduling a resumption (1) after 300 seconds (1644887379) in case this run gets aborted
+0000.058 (0) Checking if we have a zip executable available
+0000.061 (0) Testing: /usr/bin/zip
+0000.106 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.110 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.111 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.112 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.112 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.130 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.131 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.156 (0) Working binary zip found: /usr/bin/zip
+0000.158 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.158 (0) Creation of backups of directories: beginning
+0000.163 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.305 (0) Total entities for the zip file: 548 directories, 3000 files (0 skipped as non-modified), 64.5 MB
+0002.342 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.366 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (1.6 MB, 160 (160) files added so far); re-opening (prior size: 0 KB)
+0002.808 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: size is now: 0.90 MB
+0002.824 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 200 files added (on-disk size: 972.7 KB)
+0002.860 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 300 files added (on-disk size: 972.7 KB)
+0002.895 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 400 files added (on-disk size: 972.7 KB)
+0002.930 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 500 files added (on-disk size: 972.7 KB)
+0002.965 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 600 files added (on-disk size: 972.7 KB)
+0002.999 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 700 files added (on-disk size: 972.7 KB)
+0003.034 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 800 files added (on-disk size: 972.7 KB)
+0003.069 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 900 files added (on-disk size: 972.7 KB)
+0003.101 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 1000 files added (on-disk size: 972.7 KB)
+0003.135 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 1100 files added (on-disk size: 972.7 KB)
+0003.157 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.2 MB, 3000 files batched, 1001 (1161) added so far); re-opening (prior size: 972.7 KB)
+0006.634 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: size is now: 6.50 MB
+0006.659 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 1200 files added (on-disk size: 6686.1 KB)
+0006.714 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 1300 files added (on-disk size: 6686.1 KB)
+0006.772 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 1400 files added (on-disk size: 6686.1 KB)
+0006.825 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 1500 files added (on-disk size: 6686.1 KB)
+0006.884 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 1600 files added (on-disk size: 6686.1 KB)
+0006.945 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 1700 files added (on-disk size: 6686.1 KB)
+0007.004 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 1800 files added (on-disk size: 6686.1 KB)
+0007.062 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 1900 files added (on-disk size: 6686.1 KB)
+0007.119 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 2000 files added (on-disk size: 6686.1 KB)
+0007.175 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 2100 files added (on-disk size: 6686.1 KB)
+0007.210 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (25 MB, 3000 files batched, 1001 (2162) added so far); re-opening (prior size: 6686.1 KB)
+0010.618 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: size is now: 12.60 MB
+0010.649 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 2200 files added (on-disk size: 12857.4 KB)
+0010.721 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 2300 files added (on-disk size: 12857.4 KB)
+0010.782 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 2400 files added (on-disk size: 12857.4 KB)
+0010.839 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 2500 files added (on-disk size: 12857.4 KB)
+0010.902 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 2600 files added (on-disk size: 12857.4 KB)
+0010.960 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 2700 files added (on-disk size: 12857.4 KB)
+0011.024 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 2800 files added (on-disk size: 12857.4 KB)
+0011.089 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 2900 files added (on-disk size: 12857.4 KB)
+0011.153 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: 3000 files added (on-disk size: 12857.4 KB)
+0014.344 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.tmp: size is now: 18.30 MB
+0014.384 (0) Creating zip file manifest (/domains/friends-of-dodo.art/DEFAULT/wp-content/updraft/backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.list-temp.tmp)
+0014.392 (0) Successfully created zip file manifest (size: 254078)
+0014.639 (0) Created plugins zip (0) - 18774 KB in 14.5 s (1297.2 KB/s) (sha1: 16278ed69603d3a02ddc19aec4367f4f3254bb3a, sha256: 35bbd61537faec837d2e93408a70a525a84467eabb76648804b7d7fe13605f9e)
+0014.643 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.005 (0) Total entities for the zip file: 110 directories, 482 files (0 skipped as non-modified), 11 MB
+0015.034 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.065 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.093 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.120 (0) Zip: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0016.524 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip.tmp: size is now: 8.20 MB
+0016.535 (0) Creating zip file manifest (/domains/friends-of-dodo.art/DEFAULT/wp-content/updraft/backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip.list-temp.tmp)
+0016.537 (0) Successfully created zip file manifest (size: 32911)
+0016.658 (0) Created themes zip (0) - 8414.9 KB in 2 s (4184.4 KB/s) (sha1: 314d8068d4d5e8b12066763709bd805b76141fce, sha256: 38fa93dac8bcba8cc834d394298660878875ea0be26905df27184526b7b7f699)
+0016.663 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0016.664 (0) Looking for candidates to backup in: /domains/friends-of-dodo.art/DEFAULT/wp-content/uploads
+0016.668 (0) finding files: .htaccess: adding to list (1)
+0016.668 (0) finding files: 2022: adding to list (2)
+0016.669 (0) finding files: wp-file-manager-pro: adding to list (3)
+0016.670 (0) finding files: elementor: adding to list (4)
+0016.670 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0016.720 (0) Total entities for the zip file: 7 directories, 49 files (0 skipped as non-modified), 3.7 MB
+0017.028 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip.tmp: size is now: 3.70 MB
+0017.033 (0) Creating zip file manifest (/domains/friends-of-dodo.art/DEFAULT/wp-content/updraft/backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip.list-temp.tmp)
+0017.035 (0) Successfully created zip file manifest (size: 2595)
+0017.091 (0) Created uploads zip (0) - 3767.4 KB in 0.4 s (9042.6 KB/s) (sha1: 4ed859b5d39d79978762676a8a64d9e525c5011b, sha256: 1be9a1f05f97a7b111bfe91194009de3bb3a4cfa3f77828fe910cf5b9dc183d1)
+0017.096 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.097 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0017.097 (0) Looking for candidates to backup in: /domains/friends-of-dodo.art/DEFAULT/wp-content
+0017.100 (0) finding files: themes: skipping: this is the themes directory
+0017.101 (0) finding files: index.php: adding to list (1)
+0017.102 (0) finding files: plugins: skipping: this is the plugins directory
+0017.102 (0) finding files: uploads: skipping: this is the uploads directory
+0017.103 (0) finding files: upgrade: skipping: excluded by options
+0017.103 (0) finding files: aiowps_backups: skipping: excluded by options (glob)
+0017.103 (0) finding files: updraft: skipping: this is the updraft directory
+0017.109 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0017.128 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip.tmp: size is now: 0.00 MB
+0017.131 (0) Creating zip file manifest (/domains/friends-of-dodo.art/DEFAULT/wp-content/updraft/backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip.list-temp.tmp)
+0017.133 (0) Successfully created zip file manifest (size: 43)
+0017.136 (0) Created others zip (0) - 0.2 KB in 0 s (6.5 KB/s) (sha1: 984977db21cee7ecedebb9671c9e8dd55ee7ca1f, sha256: fb3cf61f066bf46c3efafd13c912492861f53cae2c892b9bf0fbff58d5bb2c12)
+0017.143 (0) Saving backup status to database (elements: 8)
+0017.145 (0) Beginning creation of database dump (WordPress DB)
+0017.146 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0017.149 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0017.240 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `nwyea_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\n (truncated - 1546 bytes total)
+0017.242 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0017.255 (0) Table nwyea_options: Total expected rows (via COUNT): 287
+0017.256 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.346 (0) Table nwyea_options: Rows added in this batch (next record: 3179): 281 (uncompressed bytes in this segment=1586175) in 0.10 seconds
+0017.357 (0) Table nwyea_options: finishing file(s) (2, 382.5 KB)
+0017.361 (0) Table nwyea_users: Total expected rows (via COUNT): 1
+0017.362 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.364 (0) Table nwyea_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1376) in 0.00 seconds
+0017.369 (0) Table nwyea_users: finishing file(s) (2, 0.6 KB)
+0017.375 (0) Table nwyea_usermeta: Total expected rows (via COUNT): 30
+0017.376 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.379 (0) Table nwyea_usermeta: Rows added in this batch (next record: 30): 30 (uncompressed bytes in this segment=3595) in 0.01 seconds
+0017.386 (0) Table nwyea_usermeta: finishing file(s) (2, 1.6 KB)
+0017.393 (0) Table nwyea_commentmeta: Total expected rows (via COUNT): 0
+0017.395 (0) Table nwyea_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.00 seconds
+0017.401 (0) Table nwyea_commentmeta: finishing file(s) (2, 0.4 KB)
+0017.407 (0) Table nwyea_comments: Total expected rows (via COUNT): 1
+0017.407 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.410 (0) Table nwyea_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2114) in 0.01 seconds
+0017.415 (0) Table nwyea_comments: finishing file(s) (2, 0.7 KB)
+0017.421 (0) Table nwyea_links: Total expected rows (via COUNT): 0
+0017.423 (0) Table nwyea_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1284) in 0.00 seconds
+0017.428 (0) Table nwyea_links: finishing file(s) (2, 0.5 KB)
+0017.435 (0) Table nwyea_postmeta: Total expected rows (approximate): 1831
+0017.467 (0) Table nwyea_postmeta: Rows added in this batch (next record: 2224): 1831 (uncompressed bytes in this segment=816240) in 0.04 seconds
+0017.473 (0) Table nwyea_postmeta: finishing file(s) (2, 33.1 KB)
+0017.481 (0) Table nwyea_posts: Total expected rows (via COUNT): 363
+0017.481 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.498 (0) Table nwyea_posts: Rows added in this batch (next record: 457): 363 (uncompressed bytes in this segment=495913) in 0.02 seconds
+0017.505 (0) Table nwyea_posts: finishing file(s) (2, 24.3 KB)
+0017.509 (0) Table nwyea_term_relationships: Total expected rows (approximate): 17
+0017.511 (0) Table nwyea_term_relationships: Rows added in this batch (next record: 100000): 17 (uncompressed bytes in this segment=930) in 0.00 seconds
+0017.516 (0) Table nwyea_term_relationships: finishing file(s) (2, 0.4 KB)
+0017.522 (0) Table nwyea_term_taxonomy: Total expected rows (via COUNT): 9
+0017.522 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.525 (0) Table nwyea_term_taxonomy: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1197) in 0.01 seconds
+0017.530 (0) Table nwyea_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0017.538 (0) Table nwyea_termmeta: Total expected rows (via COUNT): 1
+0017.538 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.540 (0) Table nwyea_termmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=756) in 0.01 seconds
+0017.546 (0) Table nwyea_termmeta: finishing file(s) (2, 0.4 KB)
+0017.550 (0) Table nwyea_terms: Total expected rows (via COUNT): 9
+0017.551 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.553 (0) Table nwyea_terms: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1064) in 0.00 seconds
+0017.558 (0) Table nwyea_terms: finishing file(s) (2, 0.5 KB)
+0017.564 (0) Table nwyea_aiowps_debug_log: Total expected rows (via COUNT): 0
+0017.565 (0) Table nwyea_aiowps_debug_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.00 seconds
+0017.571 (0) Table nwyea_aiowps_debug_log: finishing file(s) (2, 0.4 KB)
+0017.578 (0) Table nwyea_aiowps_events: Total expected rows (via COUNT): 0
+0017.579 (0) Table nwyea_aiowps_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1018) in 0.01 seconds
+0017.586 (0) Table nwyea_aiowps_events: finishing file(s) (2, 0.4 KB)
+0017.590 (0) Table nwyea_aiowps_failed_logins: Total expected rows (approximate): 1865
+0017.610 (0) Table nwyea_aiowps_failed_logins: Rows added in this batch (next record: 1870): 1865 (uncompressed bytes in this segment=114185) in 0.02 seconds
+0017.616 (0) Table nwyea_aiowps_failed_logins: finishing file(s) (2, 23.6 KB)
+0017.623 (0) Table nwyea_aiowps_global_meta: Total expected rows (via COUNT): 0
+0017.626 (0) Table nwyea_aiowps_global_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1166) in 0.01 seconds
+0017.632 (0) Table nwyea_aiowps_global_meta: finishing file(s) (2, 0.4 KB)
+0017.638 (0) Table nwyea_aiowps_login_activity: Total expected rows (via COUNT): 19
+0017.639 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.641 (0) Table nwyea_aiowps_login_activity: Rows added in this batch (next record: 20): 19 (uncompressed bytes in this segment=2753) in 0.01 seconds
+0017.647 (0) Table nwyea_aiowps_login_activity: finishing file(s) (2, 0.8 KB)
+0017.653 (0) Table nwyea_aiowps_login_lockdown: Total expected rows (via COUNT): 35
+0017.654 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.656 (0) Table nwyea_aiowps_login_lockdown: Rows added in this batch (next record: 36): 35 (uncompressed bytes in this segment=4537) in 0.01 seconds
+0017.661 (0) Table nwyea_aiowps_login_lockdown: finishing file(s) (2, 1.2 KB)
+0017.666 (0) Table nwyea_aiowps_permanent_block: Total expected rows (via COUNT): 0
+0017.668 (0) Table nwyea_aiowps_permanent_block: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=833) in 0.00 seconds
+0017.673 (0) Table nwyea_aiowps_permanent_block: finishing file(s) (2, 0.4 KB)
+0017.679 (0) Table nwyea_artist_galleries: Total expected rows (via COUNT): 3
+0017.680 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.682 (0) Table nwyea_artist_galleries: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=1078) in 0.00 seconds
+0017.687 (0) Table nwyea_artist_galleries: finishing file(s) (2, 0.5 KB)
+0017.693 (0) Table nwyea_wpfm_backup: Total expected rows (via COUNT): 0
+0017.695 (0) Table nwyea_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=546) in 0.00 seconds
+0017.700 (0) Table nwyea_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0017.701 (0) PHP event: code E_WARNING: filemtime(): stat failed for /domains/friends-of-dodo.art/DEFAULT/wp-content/updraft/backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz (line 1836, wp-content/plugins/updraftplus/backup.php)
+0017.704 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_options.table.tmpr3180.gz (1/21/fopen): adding to final database dump
+0017.709 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_options.table.gz (2/21/fopen): adding to final database dump
+0017.709 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_users.table.tmpr2.gz (3/21/fopen): adding to final database dump
+0017.711 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_users.table.gz (4/21/fopen): adding to final database dump
+0017.711 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_usermeta.table.tmpr31.gz (5/21/fopen): adding to final database dump
+0017.712 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_usermeta.table.gz (6/21/fopen): adding to final database dump
+0017.713 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_commentmeta.table.tmpr0.gz (7/21/fopen): adding to final database dump
+0017.714 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_commentmeta.table.gz (8/21/fopen): adding to final database dump
+0017.714 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_comments.table.tmpr2.gz (9/21/fopen): adding to final database dump
+0017.716 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_comments.table.gz (10/21/fopen): adding to final database dump
+0017.716 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_links.table.tmpr0.gz (11/21/fopen): adding to final database dump
+0017.717 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_links.table.gz (12/21/fopen): adding to final database dump
+0017.718 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_postmeta.table.tmpr2225.gz (13/21/fopen): adding to final database dump
+0017.719 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_postmeta.table.gz (14/21/fopen): adding to final database dump
+0017.720 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_posts.table.tmpr458.gz (15/21/fopen): adding to final database dump
+0017.721 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_posts.table.gz (16/21/fopen): adding to final database dump
+0017.722 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_term_relationships.table.tmpr100001.gz (17/21/fopen): adding to final database dump
+0017.723 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_term_relationships.table.gz (18/21/fopen): adding to final database dump
+0017.724 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_term_taxonomy.table.tmpr10.gz (19/21/fopen): adding to final database dump
+0017.725 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_term_taxonomy.table.gz (20/21/fopen): adding to final database dump
+0017.726 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_termmeta.table.tmpr2.gz (21/21/fopen): adding to final database dump
+0017.727 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_termmeta.table.gz (22/21/fopen): adding to final database dump
+0017.728 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_terms.table.tmpr10.gz (23/21/fopen): adding to final database dump
+0017.729 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_terms.table.gz (24/21/fopen): adding to final database dump
+0017.730 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_debug_log.table.tmpr0.gz (25/21/fopen): adding to final database dump
+0017.731 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_debug_log.table.gz (26/21/fopen): adding to final database dump
+0017.732 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_events.table.tmpr0.gz (27/21/fopen): adding to final database dump
+0017.733 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_events.table.gz (28/21/fopen): adding to final database dump
+0017.734 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_failed_logins.table.tmpr1871.gz (29/21/fopen): adding to final database dump
+0017.735 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_failed_logins.table.gz (30/21/fopen): adding to final database dump
+0017.735 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_global_meta.table.tmpr0.gz (31/21/fopen): adding to final database dump
+0017.736 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_global_meta.table.gz (32/21/fopen): adding to final database dump
+0017.737 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_login_activity.table.tmpr21.gz (33/21/fopen): adding to final database dump
+0017.739 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_login_activity.table.gz (34/21/fopen): adding to final database dump
+0017.739 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_login_lockdown.table.tmpr37.gz (35/21/fopen): adding to final database dump
+0017.741 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_login_lockdown.table.gz (36/21/fopen): adding to final database dump
+0017.741 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_permanent_block.table.tmpr0.gz (37/21/fopen): adding to final database dump
+0017.742 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_aiowps_permanent_block.table.gz (38/21/fopen): adding to final database dump
+0017.743 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_artist_galleries.table.tmpr5.gz (39/21/fopen): adding to final database dump
+0017.744 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_artist_galleries.table.gz (40/21/fopen): adding to final database dump
+0017.745 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_wpfm_backup.table.tmpr0.gz (41/21/fopen): adding to final database dump
+0017.746 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db-table-nwyea_wpfm_backup.table.gz (42/21/fopen): adding to final database dump
+0017.752 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: finished writing out complete database file (473.7 KB)
+0017.792 (0) Total database tables backed up: 21 (backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz, size: 485178, sha1: 35061487e53cf8bbdc18a15d47da3236a0b7e510, sha256: 5e34099d52826c9036e6005c1b2ae1d0d131b60bff58e48ee93bc0c03dc902d7)
+0017.798 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0017.798 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0017.799 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0017.799 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0017.800 (0) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0017.800 (0) Saving backup history. Total backup size: 30.7 MB
+0017.802 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0017.805 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0017.805 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-168d0cebb667e638b018b01954a28e32)
+0020.015 (0) Google Drive: quota usage: used=972.9 MB, total=15360 MB, available=14387.1 MB
+0020.016 (0) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+0020.221 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0020.222 (0) An error condition has occurred for the first time during this job
+0020.651 (0) Google Drive: quota usage: used=972.9 MB, total=15360 MB, available=14387.1 MB
+0020.652 (0) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+0020.864 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0021.178 (0) Google Drive: quota usage: used=972.9 MB, total=15360 MB, available=14387.1 MB
+0021.179 (0) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+0021.403 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0021.690 (0) Google Drive: quota usage: used=972.9 MB, total=15360 MB, available=14387.1 MB
+0021.691 (0) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+0023.133 (0) Googledrive chunked upload: 100 % uploaded
+0023.137 (0) Google Drive: OK: Archive backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip uploaded in 1.45 seconds
+0023.139 (0) Recording as successfully uploaded: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip
+0023.142 (0) Deleting local file: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: OK
+0023.143 (0) Deleting zip manifest (backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip.list.tmp)
+0023.437 (0) Google Drive: quota usage: used=972.9 MB, total=15360 MB, available=14387.1 MB
+0023.439 (0) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+0024.556 (0) Googledrive chunked upload: 100 % uploaded
+0024.559 (0) Google Drive: OK: Archive backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz uploaded in 1.12 seconds
+0024.560 (0) Recording as successfully uploaded: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz
+0024.562 (0) Deleting local file: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: OK
+0024.565 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0024.567 (0) Number of backup sets in history: 2; groups (db): 1
+0024.567 (0) Examining (for databases) backup set with group_id=0, nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+0024.568 (0) This backup set is the backup set just made, so will not be deleted.
+0024.568 (0) Examining (for databases) backup set with group_id=0, nonce=738ec86f5798, datestamp=1644804799 (Feb 14 2022 02:13:19)
+0024.568 (0) 1644804799: db: this set includes a database (backup_2022-02-14-0213_Friends_of_Dodo_738ec86f5798-db.gz); db count is now 1
+0024.568 (0) 1644804799: db: over retain limit (1); will delete this database
+0024.568 (0) Delete file: backup_2022-02-14-0213_Friends_of_Dodo_738ec86f5798-db.gz, service=googledrive
+0025.581 (0) Google Drive: backup_2022-02-14-0213_Friends_of_Dodo_738ec86f5798-db.gz: Deletion failed: file was not found
+0025.584 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0025.585 (0) Number of backup sets in history: 2; groups (files): 1
+0025.585 (0) Examining (for files) backup set with nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+0025.585 (0) This backup set is the backup set just made, so will not be deleted.
+0025.586 (0) This backup set is the backup set just made, so will not be deleted.
+0025.586 (0) This backup set is the backup set just made, so will not be deleted.
+0025.586 (0) This backup set is the backup set just made, so will not be deleted.
+0025.586 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0025.586 (0) Examining (for files) backup set with nonce=738ec86f5798, datestamp=1644804799 (Feb 14 2022 02:13:19)
+0025.586 (0) plugins: over retain limit (1); will delete this file entity
+0025.587 (0) themes: over retain limit (1); will delete this file entity
+0025.587 (0) uploads: over retain limit (1); will delete this file entity
+0025.587 (0) others: over retain limit (1); will delete this file entity
+0025.587 (0) Delete file: backup_2022-02-14-0213_Friends_of_Dodo_f1face86f447-plugins.zip, service=googledrive
+0025.588 (0) Delete file: backup_2022-02-14-0213_Friends_of_Dodo_f1face86f447-themes.zip, service=googledrive
+0025.589 (0) Deleting local copy (backup_2022-02-14-0213_Friends_of_Dodo_f1face86f447-themes.zip)
+0025.590 (0) Delete file: backup_2022-02-14-0213_Friends_of_Dodo_f1face86f447-uploads.zip, service=googledrive
+0025.592 (0) Delete file: backup_2022-02-14-0213_Friends_of_Dodo_f1face86f447-others.zip, service=googledrive
+0026.332 (0) Google Drive: backup_2022-02-14-0213_Friends_of_Dodo_f1face86f447-plugins.zip: Deletion successful
+0026.818 (0) Google Drive: backup_2022-02-14-0213_Friends_of_Dodo_f1face86f447-others.zip: Deletion successful
+0027.396 (0) Google Drive: backup_2022-02-14-0213_Friends_of_Dodo_f1face86f447-uploads.zip: Deletion successful
+0027.397 (0) Google Drive: backup_2022-02-14-0213_Friends_of_Dodo_f1face86f447-themes.zip: Deletion failed: file was not found
+0027.399 (0) This backup set is now empty; will remove from history
+0027.401 (0) Deleting log file (log.738ec86f5798.txt)
+0027.402 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0027.406 (0) Resume backup (e93be1b75b6f, 0): finish run
+0027.407 (0) Decremented the semaphore (fd) by 1
+0027.409 (0) Semaphore (fd) unlocked
+0027.410 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0027.413 (0) Rescheduling resumption 1: moving to 60 seconds from now (1644887167)
+0027.414 (0) No email will/can be sent - the user has not configured an email address.
+0027.415 (0) The backup has not finished; a resumption is scheduled
+5790.810 (1) Opened log file at time: Tue, 15 Feb 2022 02:41:10 +0000 on https://friends-of-dodo.art
+5790.812 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 8.0.11 (apache2handler, Linux hn142.greenhost.nl 5.10.67 #1 SMP Wed Sep 22 06:02:52 UTC 2021 x86_64) MySQL: 10.3.28-MariaDB-1:10.3.28+maria~stretch-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+5790.813 (1) Free space on disk containing Updraft's temporary directory: 262249 MB
+5790.814 (1) Requesting backup semaphore lock (e93be1b75b6f)
+5790.816 (1) [Debug] Lock option (updraft_lock_e93be1b75b6f, nwyea_options) was created in the database
+5790.817 (1) [Info] Lock (updraft_lock_e93be1b75b6f, nwyea_options) acquired after initialising the database
+5790.818 (1) Backup run: resumption=1, nonce=e93be1b75b6f, file_nonce=e93be1b75b6f begun at=1644887079 (5791s ago), job type=backup, previous check-in=27.39s
+5790.818 (1) Long time past since expected resumption time: approx expected=1644887407.1, now=1644892870.4, diff=5463.4
+5790.820 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5790.821 (1) Scheduling a resumption (2) after 300 seconds (1644893170) in case this run gets aborted
+5790.824 (1) Checking if we have a zip executable available
+5790.825 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+5790.825 (1) Creation of backups of directories: already finished
+5790.828 (1) Saving backup status to database (elements: 8)
+5790.837 (1) Database dump (WordPress DB): Creation was completed already
+5790.838 (1) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+5790.840 (1) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5790.841 (1) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5790.841 (1) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5790.842 (1) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: others: This file has already been successfully uploaded
+5790.842 (1) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: db: This file has already been successfully uploaded
+5790.843 (1) Saving backup history. Total backup size: Unknown
+5790.844 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+5790.846 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+5790.846 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-168d0cebb667e638b018b01954a28e32)
+5794.243 (1) Google Drive: quota usage: used=954.3 MB, total=15360 MB, available=14405.7 MB
+5794.244 (1) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+5794.567 (1) Googledrive chunked upload: 5.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 5.3 / 4)
+5794.685 (1) Googledrive chunked upload: 16.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 5.3 / 4)
+5794.843 (1) Googledrive chunked upload: 38.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 5.3 / 4)
+5795.080 (1) Googledrive chunked upload: 81.8 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 5.3 / 4)
+5796.179 (1) Googledrive chunked upload: 100 % uploaded (15728640)
+5796.181 (1) Google Drive: OK: Archive backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip uploaded in 1.94 seconds
+5796.182 (1) Recording as successfully uploaded: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip
+5796.189 (1) Deleting local file: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: OK
+5796.190 (1) Deleting zip manifest (backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip.list.tmp)
+5796.468 (1) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+5796.469 (1) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+5796.695 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+5796.696 (1) An error condition has occurred for the first time during this job
+5796.988 (1) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+5796.989 (1) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+5797.187 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+5797.189 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+5797.190 (1) Number of backup sets in history: 1; groups (db): 1
+5797.191 (1) Examining (for databases) backup set with group_id=0, nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+5797.192 (1) This backup set is the backup set just made, so will not be deleted.
+5797.192 (1) Number of backup sets in history: 1; groups (files): 1
+5797.192 (1) Examining (for files) backup set with nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+5797.192 (1) This backup set is the backup set just made, so will not be deleted.
+5797.192 (1) This backup set is the backup set just made, so will not be deleted.
+5797.193 (1) This backup set is the backup set just made, so will not be deleted.
+5797.193 (1) This backup set is the backup set just made, so will not be deleted.
+5797.193 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+5797.193 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+5797.196 (1) Resume backup (e93be1b75b6f, 1): finish run
+5797.197 (1) [Info] Lock option (updraft_lock_e93be1b75b6f, nwyea_options) released
+5797.198 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5797.199 (1) No email will/can be sent - the user has not configured an email address.
+5797.199 (1) The backup has not finished; a resumption is scheduled
+6749.582 (2) Opened log file at time: Tue, 15 Feb 2022 02:57:09 +0000 on https://friends-of-dodo.art
+6749.584 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 8.0.11 (apache2handler, Linux hn142.greenhost.nl 5.10.67 #1 SMP Wed Sep 22 06:02:52 UTC 2021 x86_64) MySQL: 10.3.28-MariaDB-1:10.3.28+maria~stretch-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+6749.585 (2) Free space on disk containing Updraft's temporary directory: 262256 MB
+6749.586 (2) Requesting backup semaphore lock (e93be1b75b6f)
+6749.587 (2) [Info] Lock (updraft_lock_e93be1b75b6f, nwyea_options) acquired
+6749.589 (2) Backup run: resumption=2, nonce=e93be1b75b6f, file_nonce=e93be1b75b6f begun at=1644887079 (6750s ago), job type=backup, previous check-in=5.37s
+6749.591 (2) Scheduling a resumption (3) after 300 seconds (1644894129) in case this run gets aborted
+6749.594 (2) Checking if we have a zip executable available
+6749.595 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+6749.596 (2) Creation of backups of directories: already finished
+6749.597 (2) Saving backup status to database (elements: 8)
+6749.601 (2) Database dump (WordPress DB): Creation was completed already
+6749.602 (2) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+6749.605 (2) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: plugins: This file has already been successfully uploaded
+6749.606 (2) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+6749.606 (2) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+6749.607 (2) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: others: This file has already been successfully uploaded
+6749.608 (2) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: db: This file has already been successfully uploaded
+6749.608 (2) Saving backup history. Total backup size: Unknown
+6749.610 (2) Requesting upload of the files that have not yet been successfully uploaded (2)
+6749.612 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+6749.612 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-168d0cebb667e638b018b01954a28e32)
+6750.575 (2) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+6750.576 (2) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+6750.774 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+6750.775 (2) An error condition has occurred for the first time during this job
+6751.050 (2) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+6751.051 (2) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+6751.259 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+6751.262 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+6751.264 (2) Number of backup sets in history: 1; groups (db): 1
+6751.264 (2) Examining (for databases) backup set with group_id=0, nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+6751.265 (2) This backup set is the backup set just made, so will not be deleted.
+6751.265 (2) Number of backup sets in history: 1; groups (files): 1
+6751.265 (2) Examining (for files) backup set with nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+6751.266 (2) This backup set is the backup set just made, so will not be deleted.
+6751.266 (2) This backup set is the backup set just made, so will not be deleted.
+6751.266 (2) This backup set is the backup set just made, so will not be deleted.
+6751.266 (2) This backup set is the backup set just made, so will not be deleted.
+6751.266 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+6751.267 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+6751.269 (2) Resume backup (e93be1b75b6f, 2): finish run
+6751.271 (2) [Info] Lock option (updraft_lock_e93be1b75b6f, nwyea_options) released
+6751.271 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+6751.273 (2) No email will/can be sent - the user has not configured an email address.
+6751.273 (2) The backup has not finished; a resumption is scheduled
+9365.048 (3) Opened log file at time: Tue, 15 Feb 2022 03:40:44 +0000 on https://friends-of-dodo.art
+9365.049 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 8.0.11 (apache2handler, Linux hn142.greenhost.nl 5.10.67 #1 SMP Wed Sep 22 06:02:52 UTC 2021 x86_64) MySQL: 10.3.28-MariaDB-1:10.3.28+maria~stretch-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+9365.050 (3) Free space on disk containing Updraft's temporary directory: 263088 MB
+9365.051 (3) Requesting backup semaphore lock (e93be1b75b6f)
+9365.052 (3) [Info] Lock (updraft_lock_e93be1b75b6f, nwyea_options) acquired
+9365.054 (3) Backup run: resumption=3, nonce=e93be1b75b6f, file_nonce=e93be1b75b6f begun at=1644887079 (9365s ago), job type=backup
+9365.054 (3) Long time past since expected resumption time: approx expected=1644894129.2, now=1644896444.7, diff=2315.5
+9365.055 (3) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+9365.056 (3) Scheduling a resumption (4) after 300 seconds (1644896744) in case this run gets aborted
+9365.059 (3) Checking if we have a zip executable available
+9365.060 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+9365.061 (3) Creation of backups of directories: already finished
+9365.062 (3) Saving backup status to database (elements: 8)
+9365.067 (3) Database dump (WordPress DB): Creation was completed already
+9365.068 (3) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+9365.071 (3) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: plugins: This file has already been successfully uploaded
+9365.071 (3) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+9365.072 (3) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+9365.072 (3) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: others: This file has already been successfully uploaded
+9365.073 (3) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: db: This file has already been successfully uploaded
+9365.073 (3) Saving backup history. Total backup size: Unknown
+9365.075 (3) Requesting upload of the files that have not yet been successfully uploaded (2)
+9365.077 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+9365.077 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-168d0cebb667e638b018b01954a28e32)
+9367.106 (3) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+9367.107 (3) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+9367.296 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+9367.297 (3) An error condition has occurred for the first time during this job
+9367.518 (3) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+9367.519 (3) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+9367.708 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+9367.710 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+9367.712 (3) Number of backup sets in history: 1; groups (db): 1
+9367.713 (3) Examining (for databases) backup set with group_id=0, nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+9367.713 (3) This backup set is the backup set just made, so will not be deleted.
+9367.713 (3) Number of backup sets in history: 1; groups (files): 1
+9367.714 (3) Examining (for files) backup set with nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+9367.714 (3) This backup set is the backup set just made, so will not be deleted.
+9367.714 (3) This backup set is the backup set just made, so will not be deleted.
+9367.714 (3) This backup set is the backup set just made, so will not be deleted.
+9367.714 (3) This backup set is the backup set just made, so will not be deleted.
+9367.714 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+9367.715 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+9367.717 (3) Resume backup (e93be1b75b6f, 3): finish run
+9367.719 (3) [Info] Lock option (updraft_lock_e93be1b75b6f, nwyea_options) released
+9367.720 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+9367.721 (3) No email will/can be sent - the user has not configured an email address.
+9367.721 (3) The backup has not finished; a resumption is scheduled
+10691.744 (4) Opened log file at time: Tue, 15 Feb 2022 04:02:51 +0000 on https://friends-of-dodo.art
+10691.746 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 8.0.11 (apache2handler, Linux hn142.greenhost.nl 5.10.67 #1 SMP Wed Sep 22 06:02:52 UTC 2021 x86_64) MySQL: 10.3.28-MariaDB-1:10.3.28+maria~stretch-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 6M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+10691.747 (4) Free space on disk containing Updraft's temporary directory: 263023 MB
+10691.748 (4) Requesting backup semaphore lock (e93be1b75b6f)
+10691.749 (4) [Info] Lock (updraft_lock_e93be1b75b6f, nwyea_options) acquired
+10691.751 (4) Backup run: resumption=4, nonce=e93be1b75b6f, file_nonce=e93be1b75b6f begun at=1644887079 (10692s ago), job type=backup
+10691.751 (4) Long time past since expected resumption time: approx expected=1644896744.7, now=1644897771.4, diff=1026.7
+10691.752 (4) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+10691.754 (4) Scheduling a resumption (5) after 300 seconds (1644898071) in case this run gets aborted
+10691.757 (4) Checking if we have a zip executable available
+10691.758 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+10691.759 (4) Creation of backups of directories: already finished
+10691.761 (4) Saving backup status to database (elements: 8)
+10691.765 (4) Database dump (WordPress DB): Creation was completed already
+10691.767 (4) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+10691.769 (4) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: plugins: This file has already been successfully uploaded
+10691.770 (4) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+10691.770 (4) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+10691.771 (4) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: others: This file has already been successfully uploaded
+10691.772 (4) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: db: This file has already been successfully uploaded
+10691.772 (4) Saving backup history. Total backup size: Unknown
+10691.775 (4) Requesting upload of the files that have not yet been successfully uploaded (2)
+10691.776 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+10691.777 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-168d0cebb667e638b018b01954a28e32)
+10692.581 (4) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+10692.582 (4) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+10692.788 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+10692.789 (4) An error condition has occurred for the first time during this job
+10692.997 (4) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+10692.998 (4) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+10693.199 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+10693.202 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+10693.203 (4) Number of backup sets in history: 1; groups (db): 1
+10693.204 (4) Examining (for databases) backup set with group_id=0, nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+10693.205 (4) This backup set is the backup set just made, so will not be deleted.
+10693.205 (4) Number of backup sets in history: 1; groups (files): 1
+10693.205 (4) Examining (for files) backup set with nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+10693.205 (4) This backup set is the backup set just made, so will not be deleted.
+10693.206 (4) This backup set is the backup set just made, so will not be deleted.
+10693.206 (4) This backup set is the backup set just made, so will not be deleted.
+10693.206 (4) This backup set is the backup set just made, so will not be deleted.
+10693.206 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+10693.207 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+10693.210 (4) Resume backup (e93be1b75b6f, 4): finish run
+10693.212 (4) [Info] Lock option (updraft_lock_e93be1b75b6f, nwyea_options) released
+10693.213 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+10693.214 (4) No email will/can be sent - the user has not configured an email address.
+10693.216 (4) The backup has not finished; a resumption is scheduled
+27905.354 (5) Opened log file at time: Tue, 15 Feb 2022 08:49:44 +0000 on https://friends-of-dodo.art
+27905.356 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 8.0.11 (apache2handler, Linux hn142.greenhost.nl 5.10.67 #1 SMP Wed Sep 22 06:02:52 UTC 2021 x86_64) MySQL: 10.3.28-MariaDB-1:10.3.28+maria~stretch-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+27905.357 (5) Free space on disk containing Updraft's temporary directory: 262593 MB
+27905.358 (5) Requesting backup semaphore lock (e93be1b75b6f)
+27905.360 (5) [Info] Lock (updraft_lock_e93be1b75b6f, nwyea_options) acquired
+27905.362 (5) Backup run: resumption=5, nonce=e93be1b75b6f, file_nonce=e93be1b75b6f begun at=1644887079 (27905s ago), job type=backup
+27905.362 (5) Long time past since expected resumption time: approx expected=1644898071.4, now=1644914985, diff=16913.6
+27905.363 (5) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+27905.364 (5) Scheduling a resumption (6) after 300 seconds (1644915284) in case this run gets aborted
+27905.368 (5) Checking if we have a zip executable available
+27905.370 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+27905.371 (5) Creation of backups of directories: already finished
+27905.373 (5) Saving backup status to database (elements: 8)
+27905.380 (5) Database dump (WordPress DB): Creation was completed already
+27905.382 (5) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+27905.386 (5) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: plugins: This file has already been successfully uploaded
+27905.386 (5) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+27905.389 (5) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+27905.389 (5) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: others: This file has already been successfully uploaded
+27905.390 (5) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: db: This file has already been successfully uploaded
+27905.391 (5) Saving backup history. Total backup size: Unknown
+27905.393 (5) Requesting upload of the files that have not yet been successfully uploaded (2)
+27905.398 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+27905.399 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-168d0cebb667e638b018b01954a28e32)
+27907.669 (5) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+27907.670 (5) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+27907.857 (5) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+27907.858 (5) An error condition has occurred for the first time during this job
+27908.094 (5) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+27908.095 (5) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+27908.295 (5) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+27908.297 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+27908.298 (5) Number of backup sets in history: 1; groups (db): 1
+27908.299 (5) Examining (for databases) backup set with group_id=0, nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+27908.300 (5) This backup set is the backup set just made, so will not be deleted.
+27908.300 (5) Number of backup sets in history: 1; groups (files): 1
+27908.300 (5) Examining (for files) backup set with nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+27908.300 (5) This backup set is the backup set just made, so will not be deleted.
+27908.301 (5) This backup set is the backup set just made, so will not be deleted.
+27908.301 (5) This backup set is the backup set just made, so will not be deleted.
+27908.301 (5) This backup set is the backup set just made, so will not be deleted.
+27908.301 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+27908.301 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+27908.304 (5) Resume backup (e93be1b75b6f, 5): finish run
+27908.305 (5) [Info] Lock option (updraft_lock_e93be1b75b6f, nwyea_options) released
+27908.306 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+27908.308 (5) No email will/can be sent - the user has not configured an email address.
+27908.308 (5) The backup has not finished; a resumption is scheduled
+37147.172 (6) Opened log file at time: Tue, 15 Feb 2022 11:23:46 +0000 on https://friends-of-dodo.art
+37147.174 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 8.0.11 (apache2handler, Linux hn145.greenhost.nl 5.10.67 #1 SMP Wed Sep 22 06:02:52 UTC 2021 x86_64) MySQL: 10.3.28-MariaDB-1:10.3.28+maria~stretch-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+37147.176 (6) Free space on disk containing Updraft's temporary directory: 262143 MB
+37147.182 (6) Requesting backup semaphore lock (e93be1b75b6f)
+37147.184 (6) [Info] Lock (updraft_lock_e93be1b75b6f, nwyea_options) acquired
+37147.186 (6) Backup run: resumption=6, nonce=e93be1b75b6f, file_nonce=e93be1b75b6f begun at=1644887079 (37147s ago), job type=backup
+37147.187 (6) Long time past since expected resumption time: approx expected=1644915285, now=1644924226.8, diff=8941.8
+37147.188 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+37147.189 (6) Scheduling a resumption (7) after 300 seconds (1644924526) in case this run gets aborted
+37147.232 (6) Checking if we have a zip executable available
+37147.234 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+37147.235 (6) Creation of backups of directories: already finished
+37147.241 (6) Saving backup status to database (elements: 8)
+37147.249 (6) Database dump (WordPress DB): Creation was completed already
+37147.250 (6) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+37147.255 (6) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: plugins: This file has already been successfully uploaded
+37147.255 (6) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+37147.256 (6) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+37147.257 (6) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: others: This file has already been successfully uploaded
+37147.258 (6) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: db: This file has already been successfully uploaded
+37147.259 (6) Saving backup history. Total backup size: Unknown
+37147.262 (6) Requesting upload of the files that have not yet been successfully uploaded (2)
+37147.264 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+37147.265 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-168d0cebb667e638b018b01954a28e32)
+37149.662 (6) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+37149.663 (6) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+37149.894 (6) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+37149.895 (6) An error condition has occurred for the first time during this job
+37150.149 (6) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+37150.150 (6) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+37150.353 (6) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+37150.357 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+37150.359 (6) Number of backup sets in history: 1; groups (db): 1
+37150.360 (6) Examining (for databases) backup set with group_id=0, nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+37150.360 (6) This backup set is the backup set just made, so will not be deleted.
+37150.360 (6) Number of backup sets in history: 1; groups (files): 1
+37150.361 (6) Examining (for files) backup set with nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+37150.361 (6) This backup set is the backup set just made, so will not be deleted.
+37150.362 (6) This backup set is the backup set just made, so will not be deleted.
+37150.362 (6) This backup set is the backup set just made, so will not be deleted.
+37150.362 (6) This backup set is the backup set just made, so will not be deleted.
+37150.362 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+37150.363 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+37150.366 (6) Resume backup (e93be1b75b6f, 6): finish run
+37150.368 (6) [Info] Lock option (updraft_lock_e93be1b75b6f, nwyea_options) released
+37150.369 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+37150.371 (6) No email will/can be sent - the user has not configured an email address.
+37150.372 (6) The backup has not finished; a resumption is scheduled
+40559.922 (7) Opened log file at time: Tue, 15 Feb 2022 12:20:39 +0000 on https://friends-of-dodo.art
+40559.923 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 8.0.11 (apache2handler, Linux hn145.greenhost.nl 5.10.67 #1 SMP Wed Sep 22 06:02:52 UTC 2021 x86_64) MySQL: 10.3.28-MariaDB-1:10.3.28+maria~stretch-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 6M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+40559.925 (7) Free space on disk containing Updraft's temporary directory: 261972 MB
+40559.926 (7) Requesting backup semaphore lock (e93be1b75b6f)
+40559.927 (7) [Info] Lock (updraft_lock_e93be1b75b6f, nwyea_options) acquired
+40559.930 (7) Backup run: resumption=7, nonce=e93be1b75b6f, file_nonce=e93be1b75b6f begun at=1644887079 (40560s ago), job type=backup
+40559.930 (7) Long time past since expected resumption time: approx expected=1644924526.8, now=1644927639.5, diff=3112.8
+40559.931 (7) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+40559.933 (7) Scheduling a resumption (8) after 300 seconds (1644927939) in case this run gets aborted
+40559.936 (7) Checking if we have a zip executable available
+40559.938 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+40559.938 (7) Creation of backups of directories: already finished
+40559.942 (7) Saving backup status to database (elements: 8)
+40559.950 (7) Database dump (WordPress DB): Creation was completed already
+40559.951 (7) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+40559.955 (7) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: plugins: This file has already been successfully uploaded
+40559.956 (7) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+40559.957 (7) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+40559.957 (7) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: others: This file has already been successfully uploaded
+40559.958 (7) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: db: This file has already been successfully uploaded
+40559.958 (7) Saving backup history. Total backup size: Unknown
+40559.961 (7) Requesting upload of the files that have not yet been successfully uploaded (2)
+40559.963 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+40559.963 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-168d0cebb667e638b018b01954a28e32)
+40560.710 (7) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+40560.711 (7) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+40560.904 (7) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+40560.905 (7) An error condition has occurred for the first time during this job
+40561.136 (7) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+40561.137 (7) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+40561.363 (7) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+40561.366 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+40561.368 (7) Number of backup sets in history: 1; groups (db): 1
+40561.369 (7) Examining (for databases) backup set with group_id=0, nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+40561.369 (7) This backup set is the backup set just made, so will not be deleted.
+40561.369 (7) Number of backup sets in history: 1; groups (files): 1
+40561.370 (7) Examining (for files) backup set with nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+40561.370 (7) This backup set is the backup set just made, so will not be deleted.
+40561.371 (7) This backup set is the backup set just made, so will not be deleted.
+40561.371 (7) This backup set is the backup set just made, so will not be deleted.
+40561.371 (7) This backup set is the backup set just made, so will not be deleted.
+40561.371 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+40561.372 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+40561.375 (7) Resume backup (e93be1b75b6f, 7): finish run
+40561.376 (7) [Info] Lock option (updraft_lock_e93be1b75b6f, nwyea_options) released
+40561.377 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+40561.379 (7) No email will/can be sent - the user has not configured an email address.
+40561.380 (7) The backup has not finished; a resumption is scheduled
+40983.609 (8) Opened log file at time: Tue, 15 Feb 2022 12:27:43 +0000 on https://friends-of-dodo.art
+40983.611 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.1 WP: 5.9 PHP: 8.0.11 (apache2handler, Linux hn145.greenhost.nl 5.10.67 #1 SMP Wed Sep 22 06:02:52 UTC 2021 x86_64) MySQL: 10.3.28-MariaDB-1:10.3.28+maria~stretch-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+40983.612 (8) Free space on disk containing Updraft's temporary directory: 261977 MB
+40983.614 (8) Requesting backup semaphore lock (e93be1b75b6f)
+40983.615 (8) [Info] Lock (updraft_lock_e93be1b75b6f, nwyea_options) acquired
+40983.616 (8) Backup run: resumption=8, nonce=e93be1b75b6f, file_nonce=e93be1b75b6f begun at=1644887079 (40984s ago), job type=backup
+40983.618 (8) Scheduling a resumption (9) after 300 seconds (1644928363) in case this run gets aborted
+40983.622 (8) Checking if we have a zip executable available
+40983.623 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+40983.624 (8) Creation of backups of directories: already finished
+40983.625 (8) Saving backup status to database (elements: 8)
+40983.631 (8) Database dump (WordPress DB): Creation was completed already
+40983.633 (8) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+40983.636 (8) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-plugins.zip: plugins: This file has already been successfully uploaded
+40983.637 (8) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+40983.638 (8) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+40983.640 (8) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-others.zip: others: This file has already been successfully uploaded
+40983.640 (8) backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-db.gz: db: This file has already been successfully uploaded
+40983.641 (8) Saving backup history. Total backup size: Unknown
+40983.644 (8) Requesting upload of the files that have not yet been successfully uploaded (2)
+40983.646 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+40983.647 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-168d0cebb667e638b018b01954a28e32)
+40985.713 (8) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+40985.715 (8) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-themes.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+40985.922 (8) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+40985.923 (8) An error condition has occurred for the first time during this job
+40986.146 (8) Google Drive: quota usage: used=972.7 MB, total=15360 MB, available=14387.3 MB
+40986.148 (8) Google Drive: backup_2022-02-15-0104_Friends_of_Dodo_e93be1b75b6f-uploads.zip: Attempting to upload to Google Drive (into folder id: 1AwEmNZ7kS1b6xPTaKkbgbrUbonMT1d9n)
+40986.361 (8) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /domains/friends-of-dodo.art/DEFAULT/wp-content/plugins/updraftplus/includes/google-extensions.php)
+40986.364 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+40986.366 (8) Number of backup sets in history: 1; groups (db): 1
+40986.367 (8) Examining (for databases) backup set with group_id=0, nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+40986.368 (8) This backup set is the backup set just made, so will not be deleted.
+40986.368 (8) Number of backup sets in history: 1; groups (files): 1
+40986.369 (8) Examining (for files) backup set with nonce=e93be1b75b6f, datestamp=1644887079 (Feb 15 2022 01:04:39)
+40986.369 (8) This backup set is the backup set just made, so will not be deleted.
+40986.370 (8) This backup set is the backup set just made, so will not be deleted.
+40986.371 (8) This backup set is the backup set just made, so will not be deleted.
+40986.371 (8) This backup set is the backup set just made, so will not be deleted.
+40986.371 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+40986.372 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+40986.375 (8) Resume backup (e93be1b75b6f, 8): finish run
+40986.377 (8) [Info] Lock option (updraft_lock_e93be1b75b6f, nwyea_options) released
+40986.379 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+40986.381 (8) No email will/can be sent - the user has not configured an email address.
+40986.382 (8) The backup has not finished; a resumption is scheduled

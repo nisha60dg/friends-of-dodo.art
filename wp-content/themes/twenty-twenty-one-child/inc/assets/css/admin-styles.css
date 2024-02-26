@@ -1,0 +1,21 @@
+/**
+ * Manage Custom Admin Styles
+ *
+ *
+ *
+ */
+
+.d-none{ display:none;}
+.form-group{width:100%; display:inline-block; margin-bottom:15px;}
+.form-group label{ font-weight: bold; width: 25%; display: inline-block; vertical-align: -webkit-baseline-middle;}
+.form-group .form-input{ width: 74%; display: inline-block;}
+.form-group .form-input .form-control{ width: 80%; display: inline-block; border-radius: 5px;}
+
+.window-content .form-group{margin-bottom:10px;}
+.window-content .form-group label{width:100%;}
+
+.window-artlist-item{width: 22%;display: inline-block;margin-bottom: 15px;text-align: center; padding: 0 10px;}
+.window-artlist-item > div.window-content{border: 1px solid #f6f6f6;padding: 5px;box-shadow: 0 0 5px #f6f6f6; border-radius: 3px;}
+._window_image_preview{ width: 160px; height: 160px; padding: 10px;}
+.clearfix{ clear: both;}
+.divider{ width: 100%; display: inline-block; border-top: 1px solid #c1c1c1;padding-bottom: 10px;}

@@ -1,0 +1,639 @@
+{
+	"1": {
+		"code": 1,
+		"color": "green",
+		"name": "mainnet",
+		"title": "Main Network",
+		"network": "main",
+		"url": "//api.etherscan.io/api",
+        "url2": "https://etherscan.io/",
+		"color-html": "#21ba45",
+		"icon": "ethereum",
+		"coin-symbol": "Ξ"
+	},
+	"3": {
+		"code": 3,
+		"color": "pink",
+		"name": "ropsten",
+		"title": "Ropsten",
+		"network": "ropsten",
+		"url": "//api-ropsten.etherscan.io/api",
+        "url2": "https://ropsten.etherscan.io/",
+		"color-html": "#e03997",
+		"icon": "ethereum",
+		"coin-symbol": "Ξ"
+	},
+	"4": {
+		"code": 4,
+		"color": "yellow",
+		"name": "rinkeby",
+		"title": "Rinkeby",
+		"network": "rinkeby",
+		"url": "//api-rinkeby.etherscan.io/api",
+        "url2": "https://rinkeby.etherscan.io/",
+		"color-html": "#fbbd08",
+		"icon": "ethereum",
+		"coin-symbol": "Ξ"
+	},
+	"42": {
+		"code": 42,
+		"color": "purple",
+		"name": "kovan",
+		"title": "Kovan",
+		"network": "kovan",
+		"url": "//api-kovan.etherscan.io/api",
+        "url2": "https://kovan.etherscan.io/",
+		"color-html": "#a333c8",
+		"icon": "ethereum",
+		"coin-symbol": "Ξ"
+	},
+	"5": {
+		"code": 5,
+		"color": "blue",
+		"name": "goerli",
+		"title": "Goerli",
+		"network": "goerli",
+		"url": "//api-goerli.etherscan.io/api",
+        "url2": "https://goerli.etherscan.io/",
+		"color-html": "#69b2f1",
+		"icon": "ethereum",
+		"coin-symbol": "Ξ"
+	},
+	"421611": {
+		"code": 421611,
+		"color": "blue",
+		"name": "arbitrumtest",
+		"title": "Arbitrum Testnet",
+		"network": "arbitrumtest",
+		"url": "//testnet.arbiscan.io/",
+        "url2": "https://testnet.arbiscan.io/",
+		"color-html": "#50a0ea",
+		"icon": "angle double up",
+		"coin-symbol": "Ether",
+        "metamask_parameters": [{
+          "chainId": "0x66EEB",
+          "chainName": "Arbitrum Testnet",
+          "nativeCurrency": {
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://rinkeby.arbitrum.io/rpc"],
+          "blockExplorerUrls": ["https://testnet.arbiscan.io/"]
+        }]
+	},
+	"42161": {
+		"code": 42161,
+		"color": "blue",
+		"name": "arbitrum",
+		"title": "Arbitrum One (Mainnet)",
+		"network": "arbitrum",
+		"url": "//arbiscan.io/",
+        "url2": "https://arbiscan.io/",
+		"color-html": "#50a0ea",
+		"icon": "angle double up",
+		"coin-symbol": "Ether",
+        "metamask_parameters": [{
+          "chainId": "0xA4B1",
+          "chainName": "Arbitrum One (Mainnet)",
+          "nativeCurrency": {
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://arb1.arbitrum.io/rpc"],
+          "blockExplorerUrls": ["https://arbiscan.io/"]
+        }]
+	},
+	"77": {
+		"code": 77,
+		"color": "grey",
+		"name": "xdaitest",
+		"title": "xDai Testnet",
+		"network": "xdaitest",
+		"url": "//blockscout.com/poa/sokol/",
+        "url2": "https://blockscout.com/poa/sokol/",
+		"color-html": "#999999",
+		"icon": "square",
+		"coin-symbol": "xDai",
+        "metamask_parameters": [{
+          "chainId": "0x4D",
+          "chainName": "xDai Testnet",
+          "nativeCurrency": {
+            "name": "xDai",
+            "symbol": "xDai",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://sokol.poa.network/"],
+          "blockExplorerUrls": ["https://blockscout.com/poa/sokol"]
+        }]
+	},
+	"100": {
+		"code": 100,
+		"color": "teal",
+		"name": "xdai",
+		"title": "xDai",
+		"network": "xdai",
+		"url": "//blockscout.com/poa/xdai/",
+        "url2": "https://blockscout.com/poa/xdai/",
+		"color-html": "#48a9a6",
+		"icon": "square",
+		"coin-symbol": "xDai",
+        "metamask_parameters": [{
+          "chainId": "0x64",
+          "chainName": "xDai Mainnet",
+          "nativeCurrency": {
+            "name": "xDai",
+            "symbol": "xDai",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://rpc.xdaichain.com/"],
+          "blockExplorerUrls": ["https://blockscout.com/xdai/mainnet"]
+        }]
+	},
+	"97": {
+		"code": 97,
+		"color": "yellow",
+		"name": "bsctest",
+		"title": "Binance Smart Chain Testnet",
+		"network": "bsctest",
+		"url": "//testnet.bscscan.com/",
+        "url2": "https://testnet.bscscan.com/",
+		"color-html": "#f0b915",
+		"icon": "certificate",
+		"coin-symbol": "BNB",
+		"web3Provider": "https://data-seed-prebsc-1-s1.binance.org:8545",
+        "metamask_parameters": [{
+          "chainId": "0x61",
+          "chainName": "Binance Smart Chain Testnet",
+          "nativeCurrency": {
+            "name": "BNB",
+            "symbol": "BNB",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://data-seed-prebsc-1-s1.binance.org:8545/"],
+          "blockExplorerUrls": ["https://testnet.bscscan.com/"]
+        }]
+	},
+	"56": {
+		"code": 56,
+		"color": "yellow",
+		"name": "bsc",
+		"title": "Binance Smart Chain",
+		"network": "bsc",
+		"url": "//bscscan.com/",
+        "url2": "https://bscscan.com/",
+		"color-html": "#f0b915",
+		"icon": "certificate",
+		"coin-symbol": "BNB",
+		"web3Provider": "https://bsc-dataseed.binance.org",
+        "metamask_parameters": [{
+          "chainId": "0x38",
+          "chainName": "Binance Smart Chain Mainnet",
+          "nativeCurrency": {
+            "name": "BNB",
+            "symbol": "BNB",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://bsc-dataseed.binance.org/"],
+          "blockExplorerUrls": ["https://bscscan.com"]
+        }]
+	},
+	"80001": {
+		"code": 80001,
+		"color": "blue",
+		"name": "matictest",
+		"title": "Mumbai Matic Tesnet",
+		"network": "matictest",
+		"url": "//mumbai.polygonscan.com/",
+        "url2": "https://mumbai.polygonscan.com/",
+		"color-html": "#69b2f1",
+		"icon": "square",
+		"coin-symbol": "Matic",
+        "metamask_parameters": [{
+          "chainId": "0x13881",
+          "chainName": "Mumbai Matic Testnet",
+          "nativeCurrency": {
+            "name": "Matic",
+            "symbol": "Matic",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://rpc-mumbai.maticvigil.com/"],
+          "blockExplorerUrls": ["https://mumbai.polygonscan.com/"]
+        }]
+	},
+	"137": {
+		"code": 137,
+		"color": "blue",
+		"name": "matic",
+		"title": "Polygon (Matic)",
+		"network": "matic",
+		"url": "//polygonscan.com/",
+        "url2": "https://polygonscan.com/",
+		"color-html": "#69b2f1",
+		"icon": "square",
+		"coin-symbol": "Matic",
+        "metamask_parameters": [{
+          "chainId": "0x89",
+          "chainName": "Polygon (Matic) Mainnet",
+          "nativeCurrency": {
+            "name": "Matic",
+            "symbol": "Matic",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://polygon-rpc.com/"],
+          "blockExplorerUrls": ["https://polygonscan.com"]
+        }]
+	},
+	"31": {
+		"code": 31,
+		"color": "green",
+		"name": "rsktest",
+		"title": "RSK Testnet",
+		"network": "rsktest",
+		"url": "//explorer.testnet.rsk.co/",
+        "url2": "https://explorer.testnet.rsk.co/",
+		"color-html": "#00b520",
+		"icon": "bitcoin",
+		"coin-symbol": "tRBTC",
+        "metamask_parameters": [{
+          "chainId": "0x1F",
+          "chainName": "RSK Testnet",
+          "nativeCurrency": {
+            "name": "tRBTC",
+            "symbol": "tRBTC",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://public-node.testnet.rsk.co/"],
+          "blockExplorerUrls": ["https://explorer.testnet.rsk.co/"]
+        }]
+	},
+	"30": {
+		"code": 30,
+		"color": "green",
+		"name": "rsk",
+		"title": "RSK (Rootstock) Mainnet",
+		"network": "rsk",
+		"url": "//explorer.rsk.co/",
+        "url2": "https://explorer.rsk.co/",
+		"color-html": "#00b520",
+		"icon": "bitcoin",
+		"coin-symbol": "RBTC",
+        "metamask_parameters": [{
+          "chainId": "0x1E",
+          "chainName": "RSK Mainnet",
+          "nativeCurrency": {
+            "name": "RBTC",
+            "symbol": "RBTC",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://public-node.rsk.co"],
+          "blockExplorerUrls": ["https://explorer.rsk.co/"]
+        }]
+	},
+	"4002": {
+		"code": 4002,
+		"color": "blue",
+		"name": "fantomtest",
+		"title": "Fantom testnet",
+		"network": "fantomtest",
+		"url": "//testnet.ftmscan.com/",
+        "url2": "https://testnet.ftmscan.com/",
+		"color-html": "#1a68fe",
+		"icon": "cube",
+		"coin-symbol": "FTM",
+        "metamask_parameters": [{
+          "chainId": "0xfa2",
+          "chainName": "Fantom Testnet",
+          "nativeCurrency": {
+            "name": "Fantom",
+            "symbol": "FTM",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://rpc.testnet.fantom.network/"],
+          "blockExplorerUrls": ["https://testnet.ftmscan.com/"]
+        }]
+	},
+	"250": {
+		"code": 250,
+		"color": "blue",
+		"name": "fantom",
+		"title": "Fantom Opera (Mainnet)",
+		"network": "fantom",
+		"url": "//ftmscan.com/",
+        "url2": "https://ftmscan.com/",
+		"color-html": "#1a68fe",
+		"icon": "cube",
+		"coin-symbol": "FTM",
+        "metamask_parameters": [{
+          "chainId": "0xfa",
+          "chainName": "Fantom Opera (Mainnet)",
+          "nativeCurrency": {
+            "name": "Fantom",
+            "symbol": "FTM",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://rpc.ftm.tools/"],
+          "blockExplorerUrls": ["https://ftmscan.com/"]
+        }]
+	},
+	"128": {
+		"code": 128,
+		"color": "blue",
+		"name": "heco",
+		"title": "HECO Mainnet",
+		"network": "heco",
+		"url": "//hecoinfo.com/",
+        "url2": "https://hecoinfo.com/",
+		"color-html": "#2a2e69",
+		"icon": "tint",
+		"coin-symbol": "HT",
+        "metamask_parameters": [{
+          "chainId": "0x80",
+          "chainName": "HECO Mainnet",
+          "nativeCurrency": {
+            "name": "Huobi Token",
+            "symbol": "HT",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://http-mainnet.hecochain.com/"],
+          "blockExplorerUrls": ["https://hecoinfo.com/"]
+        }]
+	},
+	"256": {
+		"code": 256,
+		"color": "blue",
+		"name": "hecotest",
+		"title": "HECO Testnet",
+		"network": "hecotest",
+		"url": "//testnet.hecoinfo.com/",
+        "url2": "https://testnet.hecoinfo.com/",
+		"color-html": "#2a2e69",
+		"icon": "tint",
+		"coin-symbol": "HT",
+        "metamask_parameters": [{
+          "chainId": "0x100",
+          "chainName": "HECO Testnet",
+          "nativeCurrency": {
+            "name": "Huobi Token",
+            "symbol": "HT",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://http-testnet.hecochain.com"],
+          "blockExplorerUrls": ["https://testnet.hecoinfo.com/"]
+        }]
+	},
+	"69": {
+		"code": 69,
+		"color": "red",
+		"name": "optimistictest",
+		"title": "Optimistic Kovan Testnet",
+		"network": "optimistictest",
+		"url": "//kovan-optimistic.etherscan.io/",
+        "url2": "https://kovan-optimistic.etherscan.io/",
+		"color-html": "#ff0000",
+		"icon": "square",
+		"coin-symbol": "ETH",
+        "metamask_parameters": [{
+          "chainId": "0x45",
+          "chainName": "Optimistic Kovan Testnet",
+          "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://kovan.optimism.io"],
+          "blockExplorerUrls": ["https://kovan-optimistic.etherscan.io/"]
+        }]
+	},
+	"10": {
+		"code": 10,
+		"color": "red",
+		"name": "optimistic",
+		"title": "Optimistic Ethereum Mainnet",
+		"network": "optimistic",
+		"url": "//optimistic.etherscan.io/",
+        "url2": "https://optimistic.etherscan.io/",
+		"color-html": "#ff0000",
+		"icon": "square",
+		"coin-symbol": "ETH",
+        "metamask_parameters": [{
+          "chainId": "0xA",
+          "chainName": "Optimistic Ethereum Mainnet",
+          "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://mainnet.optimism.io"],
+          "blockExplorerUrls": ["https://optimistic.etherscan.io/"]
+        }]
+	},
+	"43113": {
+		"code": 43113,
+		"color": "red",
+		"name": "avalanchetest",
+		"title": "Avalanche FUJI Testnet",
+		"network": "avalanchetest",
+		"url": "//testnet.snowtrace.io/",
+        "url2": "https://testnet.snowtrace.io/",
+		"color-html": "#ff0000",
+		"icon": "angle up",
+		"coin-symbol": "AVAX",
+        "metamask_parameters": [{
+          "chainId": "0xA869",
+          "chainName": "Avalanche FUJI Testnet",
+          "nativeCurrency": {
+            "name": "AVAX",
+            "symbol": "AVAX",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://api.avax-test.network/ext/bc/C/rpc"],
+          "blockExplorerUrls": ["https://testnet.snowtrace.io/"]
+        }]
+	},
+	"43114": {
+		"code": 43114,
+		"color": "red",
+		"name": "avalanche",
+		"title": "Avalanche Mainnet C-Chain",
+		"network": "avalanche",
+		"url": "//snowtrace.io/",
+        "url2": "https://snowtrace.io/",
+		"color-html": "#ff0000",
+		"icon": "angle up",
+		"coin-symbol": "AVAX",
+        "metamask_parameters": [{
+          "chainId": "0xA86A",
+          "chainName": "Avalanche Mainnet C-Chain",
+          "nativeCurrency": {
+            "name": "AVAX",
+            "symbol": "AVAX",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://api.avax.network/ext/bc/C/rpc"],
+          "blockExplorerUrls": ["https://snowtrace.io/"]
+        }]
+	},
+	"65": {
+		"code": 65,
+		"color": "blue",
+		"name": "oectest",
+		"title": "OEC Testnet",
+		"network": "oectest",
+		"url": "//www.oklink.com/oec-test/",
+        "url2": "https://www.oklink.com/oec-test/",
+		"color-html": "#0000ff",
+		"icon": "circle",
+		"coin-symbol": "OKT",
+        "metamask_parameters": [{
+          "chainId": "0x41",
+          "chainName": "OEC Testnet",
+          "nativeCurrency": {
+            "name": "OKT",
+            "symbol": "OKT",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://exchaintestrpc.okex.org"],
+          "blockExplorerUrls": ["https://www.oklink.com/oec-test/"]
+        }]
+	},
+	"66": {
+		"code": 66,
+		"color": "blue",
+		"name": "oec",
+		"title": "OEC Mainnet",
+		"network": "oec",
+		"url": "//www.oklink.com/oec/",
+        "url2": "https://www.oklink.com/oec/",
+		"color-html": "#0000ff",
+		"icon": "circle",
+		"coin-symbol": "OKT",
+        "metamask_parameters": [{
+          "chainId": "0x42",
+          "chainName": "OEC Mainnet",
+          "nativeCurrency": {
+            "name": "OKT",
+            "symbol": "OKT",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://exchainrpc.okex.org"],
+          "blockExplorerUrls": ["https://www.oklink.com/oec/"]
+        }]
+	},
+	"322": {
+		"code": 322,
+		"color": "green",
+		"name": "kcctest",
+		"title": "KCC Testnet",
+		"network": "kcctest",
+		"url": "//scan-testnet.kcc.network",
+        "url2": "https://scan-testnet.kcc.network/",
+		"color-html": "#00ff00",
+		"icon": "circle",
+		"coin-symbol": "KCS",
+        "metamask_parameters": [{
+          "chainId": "0x142",
+          "chainName": "KCC Testnet",
+          "nativeCurrency": {
+            "name": "KCS",
+            "symbol": "KCS",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://rpc-testnet.kcc.network"],
+          "blockExplorerUrls": ["https://scan-testnet.kcc.network/"]
+        }]
+	},
+	"321": {
+		"code": 321,
+		"color": "green",
+		"name": "kcc",
+		"title": "KCC Mainnet",
+		"network": "kcc",
+		"url": "//explorer.kcc.io/en",
+        "url2": "https://explorer.kcc.io/en/",
+		"color-html": "#00ff00",
+		"icon": "circle",
+		"coin-symbol": "KCS",
+        "metamask_parameters": [{
+          "chainId": "0x141",
+          "chainName": "KCC Mainnet",
+          "nativeCurrency": {
+            "name": "KCS",
+            "symbol": "KCS",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://rpc-mainnet.kcc.network"],
+          "blockExplorerUrls": ["https://explorer.kcc.io/en/"]
+        }]
+	},
+	"28": {
+		"code": 28,
+		"color": "olive",
+		"name": "bobatest",
+		"title": "BOBA Rinkeby Testnet",
+		"network": "bobatest",
+		"url": "//blockexplorer.rinkeby.boba.network",
+        "url2": "https://blockexplorer.rinkeby.boba.network/",
+		"color-html": "#c5ed17",
+		"icon": "circle",
+		"coin-symbol": "ETH",
+        "metamask_parameters": [{
+          "chainId": "0x1C",
+          "chainName": "BOBA Rinkeby Testnet",
+          "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://rinkeby.boba.network"],
+          "blockExplorerUrls": ["https://blockexplorer.rinkeby.boba.network/"]
+        }]
+	},
+	"288": {
+		"code": 288,
+		"color": "olive",
+		"name": "boba",
+		"title": "BOBA Mainnet",
+		"network": "boba",
+		"url": "//blockexplorer.boba.network",
+        "url2": "https://blockexplorer.boba.network/",
+		"color-html": "#c5ed17",
+		"icon": "circle",
+		"coin-symbol": "ETH",
+        "metamask_parameters": [{
+          "chainId": "0x120",
+          "chainName": "BOBA Mainnet",
+          "nativeCurrency": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://mainnet.boba.network"],
+          "blockExplorerUrls": ["https://blockexplorer.boba.network/"]
+        }]
+	},
+	"61": {
+		"code": 61,
+		"color": "olive",
+		"name": "etc",
+		"title": "Ethereum Classic Mainnet",
+		"network": "etc",
+		"url": "//blockscout.com/etc/mainnet",
+        "url2": "https://blockscout.com/etc/mainnet/",
+		"color-html": "#33ff99",
+		"icon": "ethereum",
+		"coin-symbol": "ETC",
+        "metamask_parameters": [{
+          "chainId": "0x3D",
+          "chainName": "Ethereum Classic Mainnet",
+          "nativeCurrency": {
+            "name": "Ether Classic",
+            "symbol": "ETC",
+            "decimals": 18
+          },
+          "rpcUrls": ["https://www.ethercluster.com/etc"],
+          "blockExplorerUrls": ["https://blockscout.com/etc/mainnet/"]
+        }]
+	}
+}
